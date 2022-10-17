@@ -22,7 +22,7 @@ function findroot(
         a, b = b, a
     end
 
-    # If the was supplied as one the endpoints, return it
+    # If the root was supplied as one the endpoints, return it
     if abs(f(a)) < atol
         return a
     elseif abs(f(b)) < atol
